@@ -20,7 +20,7 @@
 |------|------|
 | `/tdw init` | 交互式建档，了解你的身份、目标、路径和节奏 |
 | `/tdw plan` | 每天早上生成个性化学习任务 |
-| `/tdw ship` | 收日报、生成结构化成稿、导师点评 |
+| `/tdw ship` | 总结日报、生成结构化成稿、导师点评 |
 | `/tdw review` | 周度复盘，分析趋势和行为模式 |
 
 ## 安装
@@ -50,7 +50,7 @@ ln -s ~/.claude/skills/today-do-what ~/.openclaw/skills/today-do-what
 ```
 /tdw init    ← 第一次用，跑这个
 /tdw plan    ← 每天早上，生成今日任务
-/tdw ship    ← 每天晚上，收日报写日志
+/tdw ship    ← 每天晚上，AI 总结每日进度
 /tdw review  ← 每周一次，深度复盘
 ```
 
@@ -77,7 +77,7 @@ ln -s ~/.claude/skills/today-do-what ~/.openclaw/skills/today-do-what
 
 ### 每天晚上：/tdw ship
 
-你只需要一句话说今天做了什么（做完了 / 卡在哪 / 换方向了 / 没动），它会追问细节，然后：
+AI 自动根据上下文记录总结日报：
 
 1. 把你的一天整理成结构化日志
 2. 以导师身份点评这篇日志
